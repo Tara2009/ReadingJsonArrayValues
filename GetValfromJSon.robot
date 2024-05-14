@@ -15,6 +15,7 @@ ReadingPersonalDetails
     ${Per_City}=           Get Value From Json    ${json_obj}        $.address.city
     ${ptype}=              Get Value From Json    ${json_obj}        $.phoneNumber[0].type
     ${pNumber}=            Get Value From Json    ${json_obj}        $.phoneNumber[0].Number
+    Should Be Equal        ${name_value[0]}       Tara
     Sleep                  5s
 
     Log                    First Name of the person is : ${name_value[0]}
