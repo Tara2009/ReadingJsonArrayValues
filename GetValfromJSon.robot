@@ -1,6 +1,6 @@
 *** Settings ***
 Library    JSONLibrary
-Library    OperatingSystem
+Library    os
 Library    Collections
 
 *** Test Cases ***
