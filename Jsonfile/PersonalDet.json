@@ -1,0 +1,20 @@
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25,
+  "address":{
+    "streetaddress": "3rd line",
+    "city": "Guntur",
+    "Postalcode": "522006"
+  },
+  "phoneNumber":[
+    {
+      "type":"LandLine",
+      "Number": "0863-22114455"
+    },
+    {
+      "type":"HandPhone",
+      "Number":"65-81250899"
+    }
+    ]
+}
