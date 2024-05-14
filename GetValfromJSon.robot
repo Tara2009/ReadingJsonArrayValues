@@ -12,4 +12,4 @@ ReadingPersonalDetails
     [Documentation]        Reading Personal Details from Json file using array and display the fetched values in Log file and console
     ${json_obj}=           Load Json From File    ${JSONFile_Path}
     ${name_value}=         Get Value From Json    ${json_obj}        $.firstName
-    Log                    ${name_value}
+    Log                    First Name of the person is : ${name_value}
