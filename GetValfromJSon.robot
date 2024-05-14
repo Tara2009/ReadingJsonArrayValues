@@ -16,7 +16,8 @@ ReadingPersonalDetails
     ${ptype}=              Get Value From Json    ${json_obj}        $.phoneNumber[0].type
     ${pNumber}=            Get Value From Json    ${json_obj}        $.phoneNumber[0].Number
     Sleep                  5s
-    Log                    First Name of the person is : ${name_value}
+
+    Log                    First Name of the person is : ${name_value[0]}
     Log                    City of the Person is : ${Per_City}
     Log                    Person Phone Type is : ${ptype}
     Log                    Person Phone Number is ; ${pNumber} 
