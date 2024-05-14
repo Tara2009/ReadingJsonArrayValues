@@ -18,7 +18,7 @@ ReadingPersonalDetails
     Sleep                  5s
 
     Log                    First Name of the person is : ${name_value[0]}
-    Log                    City of the Person is : ${Per_City}
-    Log                    Person Phone Type is : ${ptype}
-    Log                    Person Phone Number is ; ${pNumber} 
+    Log                    City of the Person is : ${Per_City[0]}
+    Log                    Person Phone Type is : ${ptype[0]}
+    Log                    Person Phone Number is ; ${pNumber[0]} 
     Sleep                  5s
