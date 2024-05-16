@@ -15,6 +15,18 @@
     {
       "type":"HandPhone",
       "Number":"65-81250899"
+    },
+    {
+      "type":"pager",
+      "Number":"65-81250899"
+    },
+    {
+      "type":"Satellite Phone",
+      "Number":"65-81250899"
+    },
+    {
+      "type":"Walkie talkie",
+      "Number":"65-81250899"
     }
     ]
 }
