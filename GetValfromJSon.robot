@@ -19,6 +19,7 @@ ReadingPersonalDetails
     ${opp_str_json}=       Convert Json To String                    ${opp_ref}
     ${opp_ref_normal}=            Get Value From Json    ${json_obj}        $.PR_opp_ref_JSON__C[0]
     ${opp_str_json_index}=        Convert Json To String                    ${opp_ref_normal}
+    Dump Json To File             ${OUTPUT_DIR)${/}output1.json             ${opp_str_json_index}            
     Should Be Equal        ${name_value[0]}       Tara
     Sleep                  5s
 
