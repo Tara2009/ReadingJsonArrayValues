@@ -26,5 +26,5 @@ ReadingPersonalDetails
     Log                    Person Phone Number is ; ${pNumber[0]} 
     Log                    Opp Reference Json is : ${opp_ref[0]}
     Log                    Opp Reference Json is : ${opp_ref_normal[0]}
-    Log                    Opp Reference without Json output is : ${\n opp_ref_normal}
+    Log                    Opp Reference without Json output is : ${opp_ref_normal}
     Sleep                  5s
