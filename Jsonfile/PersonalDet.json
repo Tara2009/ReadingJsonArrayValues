@@ -29,7 +29,8 @@
       "Number":"65-81250899"
     }
     ],
-    "PR_opp_ref_JSON__C": {
+    "PR_opp_ref_JSON__C": 
+    [
      {
        "Id" : "dcff675",
        "System" : "VIN PCC",
@@ -37,5 +38,5 @@
        "sportType" : "Cricket",
        "airingNetwork" : "star" 
      }
-}
+    ]
 }
